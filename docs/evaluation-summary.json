@@ -1,0 +1,94 @@
+{
+  "final_promos": 21,
+  "input_episodes": 50,
+  "timed_blocks": 3727,
+  "shortlist": 181,
+  "tests_passed": 79,
+  "top10_exact_stress_overlap": 9,
+  "human_quality_metrics": null,
+  "cost": {
+    "actual_main_path_requests": 397,
+    "actual_main_path_input_tokens": 272055,
+    "actual_main_path_output_tokens": 22000,
+    "per_episode_input_tokens_average": 5441.1,
+    "per_episode_output_tokens_average": 440.0,
+    "actual_inference_api_spend_usd": 0,
+    "paid_projection_usd_per_50_episode_show": 0.80811,
+    "paid_projection_usd_per_episode": 0.016162,
+    "projection_model": "Gemini 3.1 Pro Preview standard, prompt<=200k",
+    "projection_input_usd_per_million": 2,
+    "projection_output_usd_per_million": 12,
+    "projection_source": "https://aistudio.google.com/docs/pricing#gemini-3.1-pro-preview",
+    "projection_caveat": "Estimate using observed Qwen token counts, not a Gemini run. Tokenization, reasoning output, retries and prompt policy may differ. Excludes power/hardware. Includes staged refinement actual calls; final cache-only generation is not new inference."
+  },
+  "ablations": {
+    "before_critic_on_same_reviewed_pool": {
+      "count": 30,
+      "top10_ids": [
+        "P-c7387633ce05",
+        "P-35b0ca3a1fdf",
+        "P-10081ce9516a",
+        "P-355ed7bec301",
+        "P-215c13e023b6",
+        "P-25f74f716ce9",
+        "P-24620a451aa1",
+        "P-43bdf03514a1",
+        "P-847d292a61fe",
+        "P-1c58b6ffae98"
+      ],
+      "top10_types": {
+        "danger": 3,
+        "betrayal": 3,
+        "power": 2,
+        "identity": 2
+      },
+      "top10_common_with_final": 6,
+      "first_id": "P-c7387633ce05"
+    },
+    "without_diversity_penalty": {
+      "count": 21,
+      "top10_ids": [
+        "P-c7387633ce05",
+        "P-35b0ca3a1fdf",
+        "P-215c13e023b6",
+        "P-25f74f716ce9",
+        "P-09c40c8c9ffa",
+        "P-10081ce9516a",
+        "P-198900091a0e",
+        "P-1c58b6ffae98",
+        "P-0ea480557c50",
+        "P-4b462ac547c3"
+      ],
+      "top10_types": {
+        "danger": 6,
+        "betrayal": 3,
+        "power": 1
+      },
+      "top10_common_with_final": 7,
+      "first_id": "P-c7387633ce05"
+    },
+    "without_stitches": {
+      "count": 20,
+      "top10_ids": [
+        "P-c7387633ce05",
+        "P-35b0ca3a1fdf",
+        "P-10081ce9516a",
+        "P-215c13e023b6",
+        "P-25f74f716ce9",
+        "P-1afd07a12714",
+        "P-4503bd778214",
+        "P-09c40c8c9ffa",
+        "P-3321f3a34d9c",
+        "P-198900091a0e"
+      ],
+      "top10_types": {
+        "danger": 4,
+        "betrayal": 2,
+        "power": 3,
+        "identity": 1
+      },
+      "top10_common_with_final": 9,
+      "first_id": "P-c7387633ce05"
+    }
+  }
+}

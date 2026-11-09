@@ -1,0 +1,4 @@
+# The offline CLI and HTTP provider adapters use Python's standard library only.
+# Python 3.10 or later is required. Run directly from this repository:
+# python -m promo_finder --help
+# Optional dependency sets: requirements-app.txt and requirements-local.txt.

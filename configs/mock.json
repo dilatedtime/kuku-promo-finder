@@ -1,0 +1,8 @@
+{
+  "provider": "mock",
+  "model": "offline-fixture-no-semantic-judgment",
+  "temperature": 0,
+  "seed": 7,
+  "max_tokens": 512,
+  "allow_remote": false
+}

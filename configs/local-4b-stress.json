@@ -1,0 +1,1 @@
+{"provider":"openai_compatible","model":"qwen3-4b-local","base_url":"http://127.0.0.1:8765/v1","api_key_env":"","allow_remote":false,"temperature":0.35,"seed":29,"max_tokens":450,"json_mode":true,"timeout":90,"retries":2,"isolate_premise":true}

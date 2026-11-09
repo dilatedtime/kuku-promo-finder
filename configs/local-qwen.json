@@ -1,0 +1,12 @@
+{
+  "provider": "transformers",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "device": "auto",
+  "threads": 8,
+  "temperature": 0,
+  "seed": 7,
+  "max_tokens": 768,
+  "context_limit": 8192,
+  "local_files_only": false,
+  "allow_remote": false
+}

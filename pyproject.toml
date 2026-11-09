@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "source-grounded-promo-finder"
+version = "0.1.0"
+description = "Find and review timed screenplay promo candidates with validated source boundaries."
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = []
+
+[project.scripts]
+promo-finder = "promo_finder.__main__:main"
+
+[project.optional-dependencies]
+app = ["streamlit>=1.50,<2", "pypdf>=5,<7", "python-docx>=1.1,<2"]
+documents = ["pypdf>=5,<7", "python-docx>=1.1,<2"]
+local = ["torch>=2.2", "transformers>=4.37,<5", "safetensors>=0.4"]
+
+[tool.setuptools.packages.find]
+include = ["promo_finder*"]

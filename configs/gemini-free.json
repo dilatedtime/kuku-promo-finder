@@ -1,0 +1,13 @@
+{
+  "provider": "gemini",
+  "model": "gemini-2.5-flash-lite",
+  "base_url": "https://generativelanguage.googleapis.com/v1beta",
+  "api_key_env": "GEMINI_API_KEY",
+  "allow_remote": false,
+  "temperature": 0,
+  "seed": 7,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "timeout": 90,
+  "retries": 2
+}

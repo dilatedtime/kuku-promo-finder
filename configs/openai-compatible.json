@@ -1,0 +1,13 @@
+{
+  "provider": "openai_compatible",
+  "model": "REPLACE_WITH_PROVIDED_MODEL",
+  "base_url": "http://localhost:8080/v1",
+  "api_key_env": "PROMO_API_KEY",
+  "allow_remote": false,
+  "temperature": 0,
+  "seed": 7,
+  "max_tokens": 1024,
+  "json_mode": true,
+  "timeout": 90,
+  "retries": 2
+}

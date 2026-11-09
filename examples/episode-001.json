@@ -1,0 +1,15 @@
+{
+  "episode": 1,
+  "title": "Synthetic interview fixture",
+  "logline": "At a fictional wedding, Mara confronts a stranger who claims her fiance has another family.",
+  "events": [
+    {"start": "00:00.00", "end": "00:02.00", "kind": "dialogue", "speaker": "STRANGER", "text": "Your fiance is already married."},
+    {"start": "00:02.00", "end": "00:06.00", "kind": "action", "text": "Mara drops her bouquet and faces the stranger."},
+    {"start": "00:06.00", "end": "00:10.00", "kind": "dialogue", "speaker": "MARA", "text": "This is my wedding. Who sent you?"},
+    {"start": "00:10.00", "end": "00:16.00", "kind": "dialogue", "speaker": "STRANGER", "text": "Ask him why he has hidden his family for five years."},
+    {"start": "00:16.00", "end": "00:20.00", "kind": "action", "text": "The groom steps between them and reaches for the envelope."},
+    {"start": "00:20.00", "end": "00:22.00", "kind": "dialogue", "speaker": "MARA", "text": "Whose child is this?"},
+    {"start": "00:22.00", "end": "00:27.00", "kind": "dialogue", "speaker": "GROOM", "text": "I can explain. Let me see the photograph."},
+    {"start": "00:27.00", "end": "00:32.00", "kind": "action", "text": "The stranger pulls a second sealed envelope from her coat."}
+  ]
+}
